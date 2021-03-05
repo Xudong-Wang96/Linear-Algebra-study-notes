@@ -1,6 +1,14 @@
+1.
 It seems linear is so important in engineering that most cases we deal or try to turned into is a linear question.
 So, it's natural to ask: what is LINEAR? why is it so important? Or why are we easier to solve this question than others?
 I think a good way to start is the intuitive image, a straight line. 
   First, it means a relation, or function/map. an alone pure number axis doesn't have much more meaning, but a y-x function has more to investigate.
   try to think abstractly, what does a line mean mathematically. 
-  the reason it is a line rather than a cureve, it's how 
+  the reason it is a line rather than a cureve, it's how x scales - multiply with a number, so is how much y scales.  but squre/sum/sqrt doesn't have. Multiply - Scale
+  the other is adding two line together, is still a line. y1 = 2x, y2 = 3x. y1+y2=y3=5x, still a line. multiply doesn't fit.  Add - shift, then
+Thus, it can be concluded: 
+  1. a relation, function, map : y=f(x1,x2,...xn), or y=f(x), both are vector
+  2. Scale: x->kx =>(f) y->ky=kf(x): 
+  3. Sum: x->x+z =>(f) f(x)->f(x)+f(z)
+
+2.
